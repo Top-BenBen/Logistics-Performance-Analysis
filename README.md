@@ -42,10 +42,10 @@ Created calculated columns for derived metrics such as Total KM, Fuel Cost, and 
 
 
 ### Key DAX Measures: A robust set of KPIs were created using DAX, including but not limited to:
-Operational Metrics
-Total KM Travelled
-Fuel Efficiency = KM Traveled / Liters
-Maintenance per Truck
+Operational Metrics :
+Total KM Travelled, 
+Fuel Efficiency = KM Travelled / Liters,
+Maintenance per Truck and
 Average Cost per KM = Total Cost / KM Travelled
 
 
