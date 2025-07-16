@@ -13,21 +13,21 @@ To build a scalable and interactive logistics analytics model in Excel using Pow
 ### Data Model Overview: 
 The model includes:
 
-Table Name	          Description
+Table Name & Description
 
-Customer	            contains location and demographic data per customer
+Customer: Contains location and demographic data per customer
 
-Drivers	              Master list of drivers and metadata
+Drivers: Master list of drivers and metadata
 
-Vehicles	            Trucks and trailer information
+Vehicles: Trucks and trailer information
 
-Dim_Date	            Standard date dimension to support time intelligence
+Dim_Date: Standard date dimension to support time intelligence
 
-Fact_KMTraveled	      Fact table tracking distance travelled, fuel usage, cost and efficiency
+Fact_KMTraveled: Fact table tracking distance travelled, fuel usage, cost and efficiency
 
-Fact_Freight	        Freight transaction table including revenue, weight, and goods value
+Fact_Freight: Freight transaction table including revenue, weight, and goods value
 
-All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
+#### All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
 
 
 ### Data Cleaning and Preparation
