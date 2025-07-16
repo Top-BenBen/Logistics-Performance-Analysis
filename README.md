@@ -65,57 +65,43 @@ YTD Revenue.
 These measures are used across PivotTables, Slicers, and visual summaries.
 
 
-Dimensions for Analysis: 
+Dimensions for Analysis:                               
 
-Dimension	Key Attributes	                              Used For
+Date (Year, Month, Week, and Quarter) was used for Time-based analysis
 
-Date	Year, Month, Week, Quarter	                      Time-based analysis
+Driver	Name and  ID were used for Performance benchmarking
 
-Driver	Name, ID	                                      Performance benchmarking
+Truck Type, Brand, and Year	were used for Fleet performance
 
-Vehicle	Truck Type, Brand, Year	                        Fleet performance
-
-Customer	City, State, Geo-coordinates	                Geographic distribution
+Customer	City, State and Geo-coordinates were used for Geographic distribution
 
 
-Dashboard Insights
-
+Dashboard Insights:
 The resulting dashboard offers interactive analysis across several logistics angles:
 
 
-Driver & Vehicle Performance
-
-Top drivers by KM and revenue
-
-Vehicles with the highest fuel efficiency and maintenance cost
+Driver & Vehicle Performance: Top drivers by KM and revenue
+and Vehicles with the highest fuel efficiency and maintenance cost
 
 
-Freight Analysis
-
-Revenue by truck type and route
-
-Cost per KM and profit margins by load weight
-
-Average goods value across regions
+Freight Analysis:
+Revenue by truck type and route,
+Cost per KM and profit margins by load weight and
+Average goods value across regions.
 
 
-Customer Mapping
-
-Heat map of customers by state/city
-
-Density by latitude and longitude
+Customer Mapping:
+Heat map of customers by state/city and
+Density by latitude and longitude.
 
 
-Time Intelligence
-
-YTD vs Previous Year revenue
-
-Monthly and quarterly performance
-
-Week-on-week delivery trends
+Time Intelligence:
+YTD vs Previous Year revenue, 
+Monthly and quarterly performance and
+Week-on-week delivery trends. 
 
 
-Key Takeaways
+### Key Takeaways
 
 Trailer trucks contributed more significantly to profit, while some brands underperformed in fuel efficiency.
 
@@ -127,7 +113,7 @@ Maintenance and fuel are primary cost drivers—monitoring them with KPIs helps 
 
 
 
-🛠️Tools and Features Used
+### Tools and Features Used
 
 Power Pivot: For data modelling and relationships
 
@@ -140,7 +126,7 @@ PivotTables & PivotCharts: Interactive visual analysis
 Slicers & Timelines: Dashboard interactivity
 
 
-Conclusion
+### Conclusion
 
 This project showcases the power of Excel Power Pivot in turning raw logistics data into a scalable, insightful dashboard. 
 
