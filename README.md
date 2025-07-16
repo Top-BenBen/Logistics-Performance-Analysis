@@ -10,10 +10,7 @@ To build a scalable and interactive logistics analytics model in Excel using Pow
 
 ### Dataset Sources: The dataset is sourced from Kaggle.
 
-### Data Model Overview: 
-The model includes:
-
-Table Name & Description
+### Data Model Overview: The model includes the table name & their description.
 
 Customer: Contains location and demographic data per customer
 
@@ -27,7 +24,7 @@ Fact_KMTraveled: Fact table tracking distance travelled, fuel usage, cost and ef
 
 Fact_Freight: Freight transaction table including revenue, weight, and goods value
 
-#### All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
+##### All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
 
 
 ### Data Cleaning and Preparation
@@ -42,21 +39,21 @@ Created calculated columns for derived metrics such as Total KM, Fuel Cost, and 
 
 
 ### Key DAX Measures: A robust set of KPIs were created using DAX, including but not limited to:
-Operational Metrics :
+##### Operational Metrics :
 Total KM Travelled, 
 Fuel Efficiency = KM Travelled / Liters,
 Maintenance per Truck and
 Average Cost per KM = Total Cost / KM Travelled
 
 
-Financial Metrics:
+##### Financial Metrics:
 Gross Profit = Net Revenue - Total Cost, 
 Total Revenue,
 Revenue per KM = Total Revenue / KM Travelled, and 
 Revenue per KG = Revenue / Weight.
 
 
-Aggregated Insights:
+##### Aggregated Insights:
 Trips per Truck, 
 Revenue per Driver, 
 YoY Growth (from Dim_Date) and
@@ -65,8 +62,7 @@ YTD Revenue.
 These measures are used across PivotTables, Slicers, and visual summaries.
 
 
-Dimensions for Analysis:                               
-
+##### Dimensions for Analysis:                               
 Date (Year, Month, Week, and Quarter) was used for Time-based analysis
 
 Driver	Name and  ID were used for Performance benchmarking
@@ -76,33 +72,28 @@ Truck Type, Brand, and Year	were used for Fleet performance
 Customer	City, State and Geo-coordinates were used for Geographic distribution
 
 
-Dashboard Insights:
-The resulting dashboard offers interactive analysis across several logistics angles:
+### Dashboard Insights: The resulting dashboard offers interactive analysis across several logistics angles:
 
-
-Driver & Vehicle Performance: Top drivers by KM and revenue
+##### Driver & Vehicle Performance: 
+Top drivers by KM and revenue
 and Vehicles with the highest fuel efficiency and maintenance cost
 
-
-Freight Analysis:
+##### Freight Analysis:
 Revenue by truck type and route,
 Cost per KM and profit margins by load weight and
 Average goods value across regions.
 
-
-Customer Mapping:
+##### Customer Mapping:
 Heat map of customers by state/city and
 Density by latitude and longitude.
 
-
-Time Intelligence:
+##### Time Intelligence:
 YTD vs Previous Year revenue, 
 Monthly and quarterly performance and
 Week-on-week delivery trends. 
 
 
 ### Key Takeaways
-
 Trailer trucks contributed more significantly to profit, while some brands underperformed in fuel efficiency.
 
 Certain drivers achieved outstanding cost/km metrics, making them optimal for long hauls.
