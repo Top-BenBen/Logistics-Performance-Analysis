@@ -10,9 +10,7 @@ To build a scalable and interactive logistics analytics model in Excel using Pow
 
 ### Dataset Sources: The dataset is sourced from Kaggle.
 
-
-Data Model Overview: 
-
+### Data Model Overview: 
 The model includes:
 
 Table Name	          Description
@@ -32,7 +30,7 @@ Fact_Freight	        Freight transaction table including revenue, weight, and go
 All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
 
 
-Data Cleaning and Preparation
+### Data Cleaning and Preparation
 
 Loaded data using Power Query with consistent data types.
 
@@ -42,29 +40,19 @@ Null or blank values were handled via default fallbacks or filtering.
 
 Created calculated columns for derived metrics such as Total KM, Fuel Cost, and Maintenance per Truck.
 
-Key DAX Measures: A robust set of KPIs were created using DAX, including but not limited to:
 
-
+### Key DAX Measures: A robust set of KPIs were created using DAX, including but not limited to:
 Operational Metrics
-
 Total KM Travelled
-
 Fuel Efficiency = KM Traveled / Liters
-
 Maintenance per Truck
-
 Average Cost per KM = Total Cost / KM Travelled
 
 
-
 Financial Metrics
-
 Gross Profit = Net Revenue - Total Cost
-
 Total Revenue
-
 Revenue per KM = Total Revenue / KM Travelled
-
 Revenue per KG = Revenue / Weight
 
 
