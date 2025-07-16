@@ -123,3 +123,4 @@ This project showcases the power of Excel Power Pivot in turning raw logistics d
 
 It supports strategic decisions around fleet management, driver assignment, and delivery planning, making it a valuable asset for logistics and operations managers.
 
+Click here[`https://www.loom.com/share/62c3604a4682441ab128bd69d7a9f450?sid=f647a49d-1e51-405a-b49d-acf29c62acce`] for details in the video.
