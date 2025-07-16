@@ -49,37 +49,33 @@ Maintenance per Truck and
 Average Cost per KM = Total Cost / KM Travelled
 
 
-Financial Metrics
-Gross Profit = Net Revenue - Total Cost
-Total Revenue
-Revenue per KM = Total Revenue / KM Travelled
-Revenue per KG = Revenue / Weight
+Financial Metrics:
+Gross Profit = Net Revenue - Total Cost, 
+Total Revenue,
+Revenue per KM = Total Revenue / KM Travelled, and 
+Revenue per KG = Revenue / Weight.
 
 
-Aggregated Insights
-
-Trips per Truck
-
-Revenue per Driver
-
-YoY Growth (from Dim_Date)
-
-YTD Revenue
+Aggregated Insights:
+Trips per Truck, 
+Revenue per Driver, 
+YoY Growth (from Dim_Date) and
+YTD Revenue.
 
 These measures are used across PivotTables, Slicers, and visual summaries.
 
 
-Dimensions for Analysis
+Dimensions for Analysis: 
 
-Dimension	Key Attributes	Used For
+Dimension	Key Attributes	                              Used For
 
-Date	Year, Month, Week, Quarter	Time-based analysis
+Date	Year, Month, Week, Quarter	                      Time-based analysis
 
-Driver	Name, ID	Performance benchmarking
+Driver	Name, ID	                                      Performance benchmarking
 
-Vehicle	Truck Type, Brand, Year	Fleet performance
+Vehicle	Truck Type, Brand, Year	                        Fleet performance
 
-Customer	City, State, Geo-coordinates	Geographic distribution
+Customer	City, State, Geo-coordinates	                Geographic distribution
 
 
 Dashboard Insights
