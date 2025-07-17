@@ -26,6 +26,11 @@ Fact_Freight: Freight transaction table including revenue, weight, and goods val
 
 ##### All relationships are one-to-many, anchored by dimension tables (Date, Driver, Vehicle, Customer) to their corresponding fact tables.
 
+<img width="1366" height="768" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/cf4373d5-9ca9-4a54-81f8-4b4915fbbc55" />
+
+
+
+
 
 ### Data Cleaning and Preparation
 
