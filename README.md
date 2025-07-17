@@ -79,23 +79,13 @@ Customer	City, State and Geo-coordinates were used for Geographic distribution
 
 ### Dashboard Insights: The resulting dashboard offers interactive analysis across several logistics angles:
 
-##### Driver & Vehicle Performance: 
-Top drivers by KM and revenue
-and Vehicles with the highest fuel efficiency and maintenance cost
+##### Driver & Vehicle Performance: Top drivers by KM and revenue, Vehicles with the highest fuel efficiency and maintenance cost
 
-##### Freight Analysis:
-Revenue by truck type and route,
-Cost per KM and profit margins by load weight and
-Average goods value across regions.
+##### Freight Analysis: Revenue by truck type and route, Cost per KM and profit margins by load weight and Average goods value across regions.
 
-##### Customer Mapping:
-Heat map of customers by state/city and
-Density by latitude and longitude.
+##### Customer Mapping: Heat map of customers by state/city and Density by latitude and longitude.
 
-##### Time Intelligence:
-YTD vs Previous Year revenue, 
-Monthly and quarterly performance and
-Week-on-week delivery trends. 
+##### Time Intelligence: YTD vs Previous Year revenue,  Monthly and quarterly performance and Week-on-week delivery trends. 
 
 
 ### Key Takeaways
